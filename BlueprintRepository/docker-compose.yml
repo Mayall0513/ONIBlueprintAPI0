@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  blueprint-repository:
+    build: .
+    ports:
+      - "3309:44316"
